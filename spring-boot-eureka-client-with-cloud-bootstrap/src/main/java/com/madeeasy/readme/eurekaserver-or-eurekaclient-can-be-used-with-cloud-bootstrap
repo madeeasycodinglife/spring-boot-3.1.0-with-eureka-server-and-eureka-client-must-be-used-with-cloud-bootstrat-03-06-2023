@@ -1,0 +1,18 @@
+
+ as in cloud-bootstrap i.e.
+	    <dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter</artifactId>
+		</dependency>
+
+ this spring-cloud-start has inbuilt "spring-cloud-context"
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-context</artifactId>
+      <version>4.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+ so you can use eureka server + eureka client and all which is dependent on spring-cloud-context
+ so only you have to add spring-cloud-start i.e. "cloud bootstrap" in start.spring.io that's it .
+
+#######################################################------------------End------------------################################################################
